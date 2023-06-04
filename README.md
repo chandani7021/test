@@ -1,21 +1,48 @@
-Congrats! 🎉
+# Real time Voice Transcription App
 
-If you made it here then you have passed our initial screening. Welcome to second round of your interview.
+An application that performs live speech transcription in real-time is known as a real-time transcription app. Such an application turns spoken words into text using a voice recognition engine, which is subsequently shown in real time on the screen. The programme can be used for a number of things, such as transcription of meetings, conferences, and lectures.
 
-During this round, we will evaluate your ability to handle new and intricate learning challenges. Choose one of the following assignments. But don't spend no more than 12 hours working on it. After 12 hours, please submit your progress, regardless of the extent of completion. Feel free to generate code using AI tools and chat apps like chatgpt, bing chat, code copilots, codium etc.
+This Real-time Voice Transcription App is an App made in Python language using Streamlit and huggingface.
 
-To access the assignment details, kindly visit the ***#second-round*** channel . If you have any questions ask in the ***#interview-doubts*** channel.
+This app generates real time transcription automatically as the user click on the start recording button.
 
-Discord link -<https://discord.gg/uTYkFDS8>
+The app stops recording after 20 seconds on its own.
 
-To create a pull request for a public git repo, you need to follow these steps:
+## Installation
 
--   Fork the repo that you want to contribute to. This will create a copy of the repo under your own GitHub account. You can fork a repo by clicking the **Fork** button on the top right corner of the repo page.
--   Clone your forked repo to your local machine. You can do this by running **`git clone <https://github.com/your-username/repo-name.git`**> in your terminal, where **`your-username`** is your GitHub username and **`repo-name`** is the name of the repo you forked.
--   Create a new branch for your changes. You can do this by running **`git checkout -b branch-name`**, where **`branch-name`** is a descriptive name for your branch.
--   Make your changes in the new branch. You can use any code editor or IDE that you prefer. You can also use GitHub Desktop to manage your changes.
--   Add and commit your changes to the new branch. You can do this by running **`git add .`** to stage all your changes and **`git commit -m "message"`** to commit them with a message, where **`message`** is a brief summary of what you did.
--   Push your changes to your forked repo on GitHub. You can do this by running **`git push origin branch-name`**, where **`branch-name`** is the name of your branch.
--   Create a pull request from your forked repo to the original repo. You can do this by going to your forked repo on GitHub and clicking the **Compare & pull request** button. This will open a page where you can review your changes and add a title and a description for your pull request. You can also link your pull request to an issue if there is one related to your changes. Then click **Create pull request** to submit it.
+To run this project you need
 
-That's it! You have created a pull request for a public git repo. Now you need to wait for the maintainers of the original repo to review and merge your pull request. They might also ask you for some feedback or changes before merging it. You can communicate with them through the comments section of your pull request.
+    streamlit
+    sounddevice
+    torch
+    transformers
+
+You can install it directly by
+
+```bash
+  pip install -r requirements.txt
+```
+
+## To run this project locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/chandani7021/Real-Time-Voice-Transcription-App.git
+```
+
+Install libraries
+
+```bash
+  pip install -r requirements.txt
+```
+
+Launch the App
+
+```bash
+  streamlit run app.py
+```
+
+## Screenshots
+
+![App Screenshot](https://github.com/chandani7021/Real-Time-Voice-Transcription-App/assets/69253701/df14bebc-81dd-4f96-9231-82e9f78b521e)
